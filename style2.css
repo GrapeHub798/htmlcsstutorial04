@@ -1,0 +1,26 @@
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-menu {
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo-color {
+    color: darkblue
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu li {
+    display: inline-block;
+    padding: 10px 20px;
+}
