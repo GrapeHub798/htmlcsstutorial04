@@ -63,3 +63,44 @@
     color: #fff;
     font-weight: 500;
 }
+
+.page-title {
+    font-family: 'Ms Madi', cursive;
+    font-size: 92px;
+    text-align: center;
+}
+
+.content-image img {
+    margin: 20px auto;
+    width: 900px;
+    display: block;
+}
+
+.column-container {
+    margin: 20px 50px;
+    display: flex;
+}
+
+.column-container .column {
+    flex: 0 32%;
+    margin: 0 20px
+}
+
+.column-container .column p {
+    font-size: 18px;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info li {
+    display: inline-block;
+    margin: 0px 30px;
+    cursor: pointer;
+}
