@@ -24,3 +24,47 @@
     display: inline-block;
     padding: 10px 20px;
 }
+
+.left-menu li a {
+    text-decoration: none;
+    color: #6e6d7a;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right-menu {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.right-menu .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.right-menu button {
+    padding: 10px 16px;
+    background-color: #ea4c89;
+    transition: color 200ms ease;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.page-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 92px;
+    text-align: center;
+}
